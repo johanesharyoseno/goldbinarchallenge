@@ -11,6 +11,11 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      const Order= sequelize.define('Order', {
+        jumlah: DataTypes.INTEGER,
+    tipe: DataTypes.STRING
+      },{});
+    
     }
   }
   Order.init({

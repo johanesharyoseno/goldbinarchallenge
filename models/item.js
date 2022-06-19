@@ -24,7 +24,8 @@ module.exports = (sequelize, DataTypes) => {
     Item.belongsTo(models.User, {
       foreignKey: 'userId',
       as: 'user'
-    });
+    });}
+
   Item.associate = function(models) {
     Item.belongsToMany(models.Order, {
       through: 'OrderItem',
@@ -34,4 +35,3 @@ module.exports = (sequelize, DataTypes) => {
   }
     return Item;
 };
-}
