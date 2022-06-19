@@ -1,0 +1,30 @@
+Link github
+https://github.com/johanesharyoseno/goldbinarchallenge
+https://github.com/johanesharyoseno/goldbinarchallenge.git
+
+
+Berikut adalah contoh databasenya
+
+User 
+{
+"nama":"budi",
+"tanggalLahir":"12-12-1999",
+"username":"budibudz",
+"email":"budibudi@gmail.com",
+"password":"budizzzz",
+"orderId":1
+}
+
+Item
+{
+"barang":"ruby",
+"harga":1000000
+}
+
+Order
+{
+"jumlah":10,
+"tipe":"paket"
+}
+
+ 
